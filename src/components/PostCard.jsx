@@ -3,6 +3,12 @@ import { MdDeleteForever } from "react-icons/md";
 const PostCard = ({ post, deletePost }) => {
   return (
     <div className="card" style={{ width: "18rem" }}>
+      {/* <img
+        src={post.image}
+        className="card-img-top"
+        style={{ objectFit: "fill" }}
+        alt="..."
+      /> */}
       <div className="card-body">
         <h5 className="card-title">
           {post.title}
